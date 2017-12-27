@@ -9,6 +9,8 @@
 #include <stdio.h> 
 #include "snore_detection.h"
 
+//°æ±¾¿ØÖÆÆ÷²âÊÔ
+
 __IO u16 ADC_ConvertedValue[SAMPLE_SIZE];   //__IO  u16				//buffer0
 __IO u16 ADC_ConvertedValue2[SAMPLE_SIZE];										//buffer1
 u8 adc_sample = 0;	
